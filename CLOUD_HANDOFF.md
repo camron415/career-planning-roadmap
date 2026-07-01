@@ -250,6 +250,7 @@ Already built in Atlas — do **not** rebuild here.
 | Planning spec | `project-foundation.md` |
 | Kickoff transcript | `conversation-log.md` |
 | App handoff | `career-dashboard/README.md` |
+| Opportunity research (apprenticeships, pay, 12-mo plan) | `career-dashboard/docs/OPPORTUNITY_RESEARCH.md` |
 | Atlas project | `~/Documents/Macbook-Documents/projects/atlas` |
 | Atlas learning ledger | `atlas/docs/LEARNING_LEDGER.md` |
 
