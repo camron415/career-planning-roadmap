@@ -32,6 +32,7 @@ Atlas **study mode** should read this file when Camron asks for career check-in 
 
 **Camron's proof for this role:**
 - VocalLearn — React Native, TypeScript, API-backed UI, state flows
+- Atlas Personal Assistant — Expo/React Native mobile client, REST APIs, typed UI (on Compass resume)
 - Career dashboard — Next.js/React, typed UI, data-driven views
 - Flores Legal — workflow improvement, reliability, detail work
 

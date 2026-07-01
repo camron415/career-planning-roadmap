@@ -8,6 +8,8 @@ This is the active implementation repo for the local career-ops dashboard. It ha
 
 This file is the handoff note for resuming work in another editor such as Cursor.
 
+**Mobile / cloud:** See `../CLOUD_HANDOFF.md` at repo root for full context dump and paste prompt.
+
 ## Core Goal
 
 Build a local-first dashboard that helps Camron:
@@ -45,6 +47,7 @@ Implemented and working:
 - prep page driven by recurring skill signals from local roles
 - control resume in the dashboard
 - first tailored local resume packet for `Compass Insurance Advisors / Junior Frontend Developer`
+- Compass packet includes **VocalLearn, Atlas Personal Assistant, and Career Dashboard** (Atlas added 2026-06-28)
 - HTML and DOCX resume export pipeline driven from packet data
 
 Important current resume state:

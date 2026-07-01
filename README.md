@@ -5,6 +5,7 @@ Created on 2026-05-20.
 This directory is now both the planning bundle and the active implementation repo for a local Mac dashboard that helps Camron discover, score, research, prepare for, and tailor resumes for software job applications.
 
 ## Start Here
+- **Continuing on mobile / Cursor Cloud?** Read `CLOUD_HANDOFF.md` first — full session context and paste prompt for new chats.
 - Planning context lives in `project-foundation.md` and `conversation-log.md`.
 - The active app now lives in `career-dashboard/`.
 - The best handoff and continuation guide is `career-dashboard/README.md`.
