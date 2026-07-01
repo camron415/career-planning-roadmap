@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# career-dashboard (Next.js app)
+career-dashboard/node_modules/
+career-dashboard/.next/
+career-dashboard/out/
+career-dashboard/build/
+career-dashboard/.vercel/
+career-dashboard/.env*
+career-dashboard/*.tsbuildinfo
+career-dashboard/next-env.d.ts
+
+# Local SQLite job data (regenerate via ingestion worker)
+career-dashboard/data/*.sqlite
+career-dashboard/data/*.sqlite-shm
+career-dashboard/data/*.sqlite-wal

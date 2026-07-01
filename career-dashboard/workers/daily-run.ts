@@ -1,0 +1,12 @@
+import { runLiveIngestion } from "../lib/ingestion/run-live-ingestion";
+
+async function main() {
+  const summary = await runLiveIngestion();
+
+  console.log(JSON.stringify(summary, null, 2));
+}
+
+main().catch((error) => {
+  console.error(error instanceof Error ? error.message : error);
+  process.exit(1);
+});
