@@ -66,17 +66,13 @@ These are **intentional** for job applications but increase spam/scrape risk on 
 
 ---
 
-## Git history — still contains old secrets
+## Git history — scrubbed (2026-07-09)
 
-Fixing files does **not** erase past commits. GitHub may still show secrets in history until you scrub.
+`git filter-repo` was run on **vocallearn** and **kalshi-prediction-bot**; `main` was force-pushed to GitHub. Old commits on those repos should no longer contain the Supabase test password, Kalshi key ID, VPS IP, or `/Users/camrontrost` paths.
 
-**Recommended (when you have 30–60 min):**
+If you cloned either repo elsewhere, re-clone or `git fetch --all && git reset --hard origin/main`.
 
-1. Rotate all exposed credentials first (Supabase, Kalshi).
-2. Use [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or `git filter-repo` on **vocallearn** and **kalshi-prediction-bot**.
-3. Force-push cleaned history (only these repos; coordinate if others have cloned).
-
-Until then, treat those keys as compromised even after rotation.
+Optional: archive the old **kalshi-bot** GitHub repo (separate remote; not scrubbed).
 
 ---
 
