@@ -7,6 +7,22 @@
 
 ---
 
+## Switching between local Mac chat and Cursor Cloud (read this)
+
+Cloud agents often work on **branches** like `cursor/career-opportunity-research-d020`, not `main` immediately.
+
+**When returning to Mac / this chat:**
+1. `git fetch origin`
+2. `git merge origin/cursor/<branch-name>` OR `git pull` if already merged to main
+3. Tell the agent: **"Read CLOUD_HANDOFF.md and everything in career-dashboard/docs/"**
+4. Optionally paste cloud chat summary into `career-dashboard/docs/SESSION_NOTES.md` (create if needed)
+
+**When leaving Mac for cloud:** commit + push so cloud has latest.
+
+**Cloud session merged into main (2026-07-02):** branch `cursor/career-opportunity-research-d020` — see **Cloud session docs** below.
+
+---
+
 ## Paste this into your new cloud chat (start here)
 
 ```text
@@ -250,7 +266,14 @@ Already built in Atlas — do **not** rebuild here.
 | Planning spec | `project-foundation.md` |
 | Kickoff transcript | `conversation-log.md` |
 | App handoff | `career-dashboard/README.md` |
-| Opportunity research (apprenticeships, pay, 12-mo plan) | `career-dashboard/docs/OPPORTUNITY_RESEARCH.md` |
+| **LinkedIn + locked education** | `career-dashboard/docs/LINKEDIN_AND_EDUCATION.md` |
+| **Interview story / pitches** | `career-dashboard/docs/MY_STORY.md` |
+| **Compass interview prep** | `career-dashboard/docs/COMPASS_INTERVIEW_PREP.md` |
+| Opportunity research (apprenticeships, pay) | `career-dashboard/docs/OPPORTUNITY_RESEARCH.md` |
+| DSP ownership research | `career-dashboard/docs/DSP_OWNERSHIP_RESEARCH.md` |
+| Vocab lessons | `career-dashboard/docs/VOCAB_LESSONS.md` |
+| Apply week checklist | `career-dashboard/docs/APPLY_WEEK.md` |
+| Learning ledger | `career-dashboard/docs/LEARNING_LEDGER.md` |
 | Atlas project | `~/Documents/Macbook-Documents/projects/atlas` |
 | Atlas learning ledger | `atlas/docs/LEARNING_LEDGER.md` |
 
